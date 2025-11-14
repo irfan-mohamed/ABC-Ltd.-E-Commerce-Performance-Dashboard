@@ -1,0 +1,6 @@
+﻿Column Name,Data Type,Non-null Count,Missing Count (%),Unique Values,Most Frequent Value,Notes / Cleaning Needed
+geolocation_zip_code_prefix,Whole Number,19015,0,19015,Unique,
+geolocation_lat,Decimal,19015,0,18966,-15.79778154,
+geolocation_lng,Decimal,19015,0,18968,47.87468158,
+geolocation_city,Text,19015,0,3102,Akkarampalle,
+geolocation_state,Text,19015,0,20,Andhra Pradesh,

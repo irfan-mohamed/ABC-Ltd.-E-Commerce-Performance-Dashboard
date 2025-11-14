@@ -1,0 +1,6 @@
+﻿Column Name,Data Type,Non-null Count,Missing Count (%),Unique Values,Most Frequent Value,Notes / Cleaning Needed
+order_id,Text,103886,0%,96479,—,Should match with orders table
+payment_sequential,Whole Number,103886,0%,3,1,Most orders = 1
+payment_type,Text,103886,0%,0,credit_card,
+payment_installments,Whole Number,103886,0%,2,1,Should be >= 1
+payment_value,Decimal,103886,0%,13099,50,Should be > 0. 

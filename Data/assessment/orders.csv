@@ -1,0 +1,9 @@
+﻿Column Name,Data Type,Non-null Count,Missing Count (%),Unique Values,Most Frequent Value,Notes / Cleaning Needed
+order_id,Text,"96,455",0%,"96,455",Unique,"Should be unique, primary key"
+customer_id,Text,"96,455",0%,"96,455",Unique,Should match in customers table
+order_status,Text,"96,455",0%,1,delivered,only delivered
+order_purchase_timestamp,Date/Time,"96,455",0%,"77,575",—,Should be < delivered dates
+order_approved_at,Date/Time,"96,455",<1%,"30,421",—,Should be >= purchase_timestamp
+order_delivered_carrier_date,Date/Time,"96,455",2%,"40,856",—,—
+order_delivered_customer_date,Date/Time,"96,455",3%,"59,452",—,May be null if not delivered
+order_estimated_delivery_date,Date/Time,"96,455",0%,16,—,Should always be present

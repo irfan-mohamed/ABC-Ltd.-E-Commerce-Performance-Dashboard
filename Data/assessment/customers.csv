@@ -1,0 +1,6 @@
+﻿Column Name,Data Type,Non-null Count,Missing Count (%),Unique Values,Most Frequent Value,Notes / Cleaning Needed
+customer_id,Text,99441,0,99441,Unique,Standardize to readable
+customer_unique_id,Text,99441,0,96096,Some repeats,
+customer_zip_code_prefix,Whole Number ,99441,0,3012,22790,
+customer_city,Text,99441,0,"1,144",Akkarampalle,Ok
+customer_state,Text,99441,0,20,Andhra Pradesh,Ok

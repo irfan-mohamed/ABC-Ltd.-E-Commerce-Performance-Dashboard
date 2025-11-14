@@ -1,0 +1,8 @@
+﻿Column Name,Data Type,Non-null Count,Missing Count (%),Unique Values,Most Frequent Value,Notes / Cleaning Needed
+order_id,Text,112650,0%,88863,8272b63d03f5f79c56e9e4120aec44ef,Should match with orders table
+order_item_id,Whole Number ,112650,0%,1,1,"	—"
+product_id,Text,112650,0%,18117,aca2eb7d00ea1a7b8ebd4e68314663af,Should join products table
+seller_id,Text,112650,0%,509,6560211a19b47992c3666cc44a7e94c0,Should join sellers table
+shipping_limit_date,Date/Time,112650,0%,31038,—,Validate if > order_approved_at
+price,Decimal,112650,0%,2342,59.9,Should be ≥ 0
+freight_value,Decimal,112650,0%,2075,15.1,Should be ≥ 0

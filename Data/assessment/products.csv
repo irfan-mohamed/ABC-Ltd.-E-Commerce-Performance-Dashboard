@@ -1,0 +1,10 @@
+﻿Column Name,Data Type,Non-null Count,Missing Count (%),Unique Values,Most Frequent Value,Notes / Cleaning Needed
+product_id,Text,32327,0%,32327,—,"Should be unique, primary key"
+product_category_name,Text,32327,0%,1,Bed_Bath_Table, need to generate product name with this.
+product_name_length,Whole Number,32327,0%,—,—,no need
+product_description_length,Whole Number,32327,0%,—,—,no need
+product_photos_qty,Whole Number,32327,0%,—,—,no need
+product_weight_g,Whole Number,32327,0%,,,no need
+product_length_cm,Whole Number,32327,0%,,,no need
+product_height_cm,Whole Number,32327,0%,,,no need
+product_width_cm,Whole Number,32327,0%,,,no need
